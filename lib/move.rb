@@ -13,7 +13,7 @@ end
 
 def move(turn)
   board = [" ", " ", " "]
-  def update_array_at_with(array, index, value)
+  def update_array_at_with(array, index, "X")
     array[index] = value
   end
 end
