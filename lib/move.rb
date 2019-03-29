@@ -17,4 +17,3 @@ def move(turn)
     array[index] = value
   end
 end
-  
