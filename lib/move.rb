@@ -11,7 +11,7 @@ def input_to_index(input)
   input.to_i - 1
 end
 
-def move(turn)
+def move(board)
   board = [" ", " ", " "]
   def update_array_at_with(array, index, value)
     array[index] = value
